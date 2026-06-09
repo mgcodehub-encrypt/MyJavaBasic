@@ -13,7 +13,7 @@ stages{
    stage("run"){
 
      steps{
-       sh 'java src/FindFirstThreeLargeNumber'
+       sh 'java -cp src FindFirstThreeLargeNumber'
      }
    }
 
