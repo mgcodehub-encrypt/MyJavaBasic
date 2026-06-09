@@ -6,7 +6,7 @@ stages{
    stage("compile"){
 
      steps{
-       sh 'javac FindFirstThreeLargeNumber.java'
+       sh 'src/javac FindFirstThreeLargeNumber.java'
      }
    }
 
